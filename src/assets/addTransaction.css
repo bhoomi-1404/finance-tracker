@@ -1,0 +1,57 @@
+.tabList {
+  display: flex;
+  background-color: var(--tab-background-color);
+  display: flex;
+  padding: 0.25rem;
+  border-radius: calc(0.5rem - 4px);
+}
+.tab-btn {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.375rem 0.75rem;
+  color: #64748b;
+  width: 100%;
+  background-color: transparent;
+  border-radius: calc(0.5rem - 4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  svg {
+    top: 2px;
+    position: relative;
+  }
+}
+.tab-btn.active {
+  background-color: var(--tab-active-color);
+  color: var(--text-color);
+}
+button.tab-btn.active:hover,
+button.tab-btn.active:focus,
+button.tab-btn.active:focus-visible {
+  border-color: transparent;
+  outline: none;
+}
+button.tab-btn:focus-visible,
+button.tab-btn:hover,
+button.tab-btn:focus {
+  border-color: transparent;
+  outline: none;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+  width: fit-content;
+  left: 35% !important;
+  background: var(--bg-color) !important;
+  border-radius: 0.5rem !important;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  /* background-color: #000c !important; */
+}
+.bottom-action-btn-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  gap: 10px;
+  position: relative;
+}

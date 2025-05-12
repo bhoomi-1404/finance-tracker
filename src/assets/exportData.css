@@ -1,0 +1,135 @@
+.export-data-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+.export-data-item {
+  color: var(--text-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid var(--border-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--bg-color);
+}
+.button-wrapper {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.export-data-item.selected {
+  background-color: #a60df2;
+  border-color: transparent;
+  color: #fff;
+}
+button.export-data-item.selected:hover,
+button.export-data-item.selected:focus,
+button.export-data-item.selected:focus-visible {
+  outline: none;
+  border-color: transparent;
+}
+button.export-data-item:hover,
+button.export-data-item:focus,
+button.export-data-item:focus-visible {
+  outline: none;
+  border-color: var(--border-color);
+}
+.danger-heading {
+  color: var(--danger-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1rem;
+}
+.secondary-danger-zone-btn {
+  border: 1px solid var(--danger-heading);
+  color: var(--danger-heading);
+  border-radius: 0.5rem;
+  background-color: var(--bg-color);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  svg {
+    color: var(--danger-heading);
+  }
+}
+.primary-danger-zone-btn {
+  border: 1px solid var(--danger-heading);
+  background-color: var(--danger-heading);
+  color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  svg {
+    color: #fff;
+  }
+}
+.danger-zone-button {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+button.primary-danger-zone-btn:hover,
+button.primary-danger-zone-btn:focus,
+button.primary-danger-zone-btn:focus-visible {
+  border-color: var(--danger-heading);
+  outline: none;
+}
+button.secondary-danger-zone-btn:hover,
+button.secondary-danger-zone-btn:focus,
+button.secondary-danger-zone-btn:focus-visible {
+  border-color: var(--danger-heading);
+  outline: none;
+}
+.confirmation-button-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  gap: 10px;
+}
+.confirm-heading {
+  color: var(--text-color);
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  svg {
+    color: var(--danger-heading);
+  }
+}
+.confirmation-modal.ReactModal__Content.ReactModal__Content--after-open {
+  min-width: 400px;
+  width: 410px;
+  height: 200px;
+  padding: 0px !important;
+}
+.text-question {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 500;
+  margin: 1rem 0px;
+  color: #64748b;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottom-wrapper {
+  padding: 0px 1.5rem 1.5rem 1.5rem;
+}
+.confirm-icon {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #fee2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

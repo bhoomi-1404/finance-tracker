@@ -1,0 +1,8 @@
+.spending-trends-graph {
+  background-color: var(--bg-color);
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  min-height: 400px;
+  border: 1px solid var(--border-color);
+}

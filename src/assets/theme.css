@@ -1,0 +1,53 @@
+/*lighttheme*/
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #2563eb;
+  --card-bg: #f9fafb;
+  --border-color: #e2e8f0;
+  --logo-color: #020817;
+  --primary-btn-text-color: #fff;
+  --border-color: #e2e8f0;
+  --left-panel-text-color: #64748b;
+  --selected-option-color: #f8fafc;
+  --selected-icon-color: #0000000;
+  --tab-background-color: hsl(210 40% 96.1%);
+  --tab-active-color: #fff;
+  --category-badge-bg-negative: #ffe4e6;
+  --progres-line-bg-color: #fff;
+  --danger-heading: #ef4444;
+  --rollback-text-color: #7e22ce;
+  --rollback-bg-color: linear-gradient(to bottom right, #f8f0ff, #ffffff);
+  --rollback-sm-text-color: #8b5cf6;
+  --card-bg-color: #fff;
+  --tertiary-border-color: "#4a5568";
+  --icon-color: #8b5cf6;
+  --carousel-bg-color: #a60df2;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg-color: black;
+  --text-color: #f7fafc;
+  --primary-color: #60a5fa;
+  --card-bg: #2d3748;
+  --tertiary-border-color: #a60df2;
+  --border-color: #4a5568;
+  --logo-color: #fff;
+  --primary-btn-text-color: #020817;
+  --border-color: #402640;
+  --left-panel-text-color: #64748b;
+  --selected-option-color: #000000;
+  --selected-icon-color: #fff;
+  --tab-background-color: #402640;
+  --tab-active-color: #000000;
+  --category-badge-bg-negative: #7f1d1d;
+  --progres-line-bg-color: #402640;
+  --danfer-heading: #7f1d1d;
+  --rollback-text-color: #e9d5ff;
+  --rollback-bg-color: #2d1b41;
+  --rollback-sm-text-color: #d8b4fe;
+  --card-bg-color: #2d1b41;
+  --icon-color: #fff;
+  --carousel-bg-color: #fff;
+}

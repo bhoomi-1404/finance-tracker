@@ -1,0 +1,30 @@
+.charts-container {
+  padding: 1rem;
+  background-color: var(--bg-color);
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+}
+.pie-chart-wrapper {
+  /* height: 100%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spend-list {
+  color: rgb(71, 85, 105);
+}
+.dot {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+.entry-name{
+  color: var(--text-color);
+}
+.list-wrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}

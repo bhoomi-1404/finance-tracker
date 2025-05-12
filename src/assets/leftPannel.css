@@ -1,0 +1,40 @@
+.option {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 0.5rem;
+
+}
+.option:hover {
+  background-color: #e87dc4;
+}
+.option.selected {
+  border-radius: 0.5rem;
+  background-color: #a60df2;
+  svg {
+    color: var(--selected-option-color);
+  }
+}
+.option.selected:hover {
+  background-color: #be5eed;
+  opacity: 0.9;
+}
+.left-panel-container {
+  padding: 1.5rem 1rem;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+.icon {
+  height: 1rem;
+  width: 1rem;
+}
+.text {
+  cursor: pointer;
+  color: var(--left-panel-text-color);
+}
+.selected.text {
+  color: var(--selected-option-color);
+}
