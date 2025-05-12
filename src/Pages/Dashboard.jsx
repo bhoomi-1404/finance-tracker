@@ -11,7 +11,7 @@ import { RxArrowTopRight, RxArrowBottomRight } from "react-icons/rx";
 import LineChartComponent from "../Components/LineChartComponent";
 import PieChartComponent from "../Components/PieChartComponent";
 import { useUIStore } from "../Store/useExpenses";
-import BarChartComponent from "../Components/BarchartComponent";
+import BarChartComponent from "../Components/BarChartComponent";
 import SavingsGoal from "../Components/SavingsGoal";
 import QuickActions from "../Components/QuickActions";
 import { useExpenses } from "../Store/useExpenses";
