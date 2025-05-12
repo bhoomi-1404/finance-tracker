@@ -7,7 +7,7 @@ import "../assets/general.css";
 import "../assets/dashboard.css";
 import { tabListForReports } from "../Utils/GeneralUtils";
 import SpendingTrendsGraph from "../Components/SpendingTrendsGraph";
-import BarChartComponent from "../Components/BarchartComponent";
+import BarChartComponent from "../Components/BarChartComponent";
 import PieChartComponent from "../Components/PieChartComponent";
 import "../assets/reports.css";
 import IncomeAnalysis from "../Components/IncomeAnalysis";
